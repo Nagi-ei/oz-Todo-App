@@ -1,3 +1,48 @@
+/* Todo */
+.hidden {
+  display: none;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+ul {
+  width: 80dvw;
+}
+
+li {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 1rem;
+}
+
+span {
+  text-align: left;
+}
+
+li > span,
+.editing-input {
+  flex: 1;
+  height: 30px;
+  font-size: 1rem;
+}
+
+.input-container {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.input-container input {
+  flex: 1;
+}
+
+/* 원래 있던거 */
 #root {
   max-width: 1280px;
   margin: 0 auto;
